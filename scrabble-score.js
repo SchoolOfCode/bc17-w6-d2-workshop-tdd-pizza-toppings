@@ -36,7 +36,7 @@ export function calculateScrabbleScore(word) {
     case "Q":
       return 10;
     case "R":
-      return 31;
+      return 1;
     case "S":
       return 1;
     case "T":
