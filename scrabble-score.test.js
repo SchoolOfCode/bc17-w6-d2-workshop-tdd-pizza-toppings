@@ -1,4 +1,5 @@
 import { calculateScrabbleScore } from "./scrabble-score"; //Your tests will go here
+import { test, expect } from 'vitest';
 
 //Write a new test that checks whether `calculateScrabbleScore` correctly calculates the score for the word `A`.
 

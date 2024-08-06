@@ -1,7 +1,10 @@
 //implementation will go here
 export function calculateScrabbleScore(word) {
-switch (word)
-} 
+  switch (word) {
+    case "A":
+      return 1;
+  }
+};
 
 
 /*export default function calculate(operator, firstNumber, secondNumber) {
