@@ -6,3 +6,8 @@ import { test, expect } from 'vitest';
 test("Using calculateScrabbleScore award value of 1 to A", () => {
   expect(calculateScrabbleScore("A")).toBe(1);
 });
+
+
+test.each("Using calculateScrabbleScore award value of 1 to A", () => {
+  expect(calculateScrabbleScore("A")).toBe(1);
+});
