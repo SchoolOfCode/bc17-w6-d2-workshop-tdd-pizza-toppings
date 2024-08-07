@@ -83,3 +83,10 @@ test("Using calculateScrabbleScore award value of 4 to Y", () => {
 test("Using calculateScrabbleScore award value of 10 to Z", () => {
   expect(calculateScrabbleScore("Z")).toBe(10);
 });
+
+
+// Test for word with multple letters - to
+
+test('Using calclulateScrabbleScore to award value of t=1, o=10', () => {
+  expect(calculateScrabbleScore("TO")).toBe(11);
+});
